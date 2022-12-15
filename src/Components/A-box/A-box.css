@@ -1,0 +1,12 @@
+.a-top{
+  width: 100%;
+  display: flex;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border: 1px solid #DFE0EB;
+  border-radius: 8px;
+}
+
+.a-bottom{
+  display: flex;
+}

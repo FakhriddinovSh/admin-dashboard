@@ -1,0 +1,28 @@
+.a-st-item{
+  width: 100%;
+  padding: 24px 0;
+  text-align: center;
+}
+
+.a-st-item:not(:last-child){
+  border-bottom: 1px solid #DFE0EB;
+}
+
+.statistic-name{
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  color: #9FA2B4;
+}
+
+.statistic-num{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  color: #252733;
+
+}

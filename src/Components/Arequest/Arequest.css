@@ -1,0 +1,25 @@
+.request-item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+}
+
+.request-item:not(:nth-child(1)){
+  padding-top: 20px;
+  border-top: 1px solid #DFE0EB;;
+}
+
+.req-text{
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+
+.req-text__num{
+  color: #9FA2B4;
+}
