@@ -1,0 +1,35 @@
+.sh-header-svg {
+	margin-left: 26px;
+}
+
+.header-svg-wrap {
+	position: relative;
+	padding-right: 33px;
+}
+
+.header-svg-wrap::after {
+	position: absolute;
+	right: 0;
+	content: '';
+	width: 3px;
+	height: 100%;
+	border-right: 3px solid #dfe0eb;
+}
+
+.header-user-wrap {
+	padding-left: 32px;
+}
+
+.header-user-wrap p {
+	margin-right: 14px !important;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: right;
+	letter-spacing: 0.2px;
+	color: #252733;
+}
+
+.header-all-wrap {
+	padding-bottom: 54px;
+}

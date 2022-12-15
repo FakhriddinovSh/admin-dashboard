@@ -1,0 +1,44 @@
+.itemRight {
+	width: 278px;
+	height: 134px;
+	padding-top: 24px;
+	padding-right: 32px;
+	padding-left: 32px;
+	background: #ffffff;
+	border: 1px solid #dfe0eb;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.itemRight:hover {
+	border-color: #3751ff;
+	transition: border-color 0.5s ease;
+}
+
+.itemRight:hover .itemRightTheme {
+	color: #3751ff;
+	transition: color 0.5s ease;
+}
+
+.itemRight:hover .itemRightCount {
+	color: #3751ff;
+	transition: color 0.5s ease;
+}
+
+.itemRightTheme {
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.4px;
+	color: #9fa2b4;
+}
+
+.itemRightCount {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #252733;
+}
