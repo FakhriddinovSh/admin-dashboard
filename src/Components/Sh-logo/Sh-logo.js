@@ -12,8 +12,7 @@ export const ShLogo = () => {
 
 	return icons.map((item) => (
 		<div className="d-flex logo-top align-items-center">
-			<div>{item.image}</div>{' '}
-			<p className="logo-top-desc m-0">{item.text}</p>
+			<div>{item.image}</div> <p className="logo-top-desc">{item.text}</p>
 		</div>
 	));
 };

@@ -4,7 +4,7 @@
 	padding-top: 18px;
 	padding-bottom: 18px;
 	padding-right: 90.5px;
-	padding-left: 29px;
+	padding-left: 29px !important;
 	cursor: pointer;
 	transition: all 0.5s ease;
 }

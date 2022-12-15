@@ -1,4 +1,5 @@
 import { ItemRight } from '../Sh-item-right/Sh-item-right';
+import Abox from '../A-box/A-box';
 
 export const HeaderListRight = () => {
 	const datas = [
@@ -21,10 +22,13 @@ export const HeaderListRight = () => {
 	];
 
 	return (
-		<ul className="list-unstyled d-flex justify-content-between text-center">
-			{datas.map((item) => (
-				<ItemRight theme={item.theme} count={item.count} />
-			))}
-		</ul>
+		<>
+			<ul className="list-unstyled d-flex justify-content-between text-center">
+				{datas.map((item) => (
+					<ItemRight theme={item.theme} count={item.count} />
+				))}
+			</ul>
+			<Abox />
+		</>
 	);
 };
