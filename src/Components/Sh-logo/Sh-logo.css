@@ -1,0 +1,16 @@
+.logo-top {
+	padding-top: 37px;
+	padding-bottom: 59px;
+	padding-right: 43px;
+	padding-left: 32px;
+}
+
+.logo-top-desc {
+	margin-left: 12px !important;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+	color: #a4a6b3;
+	opacity: 0.7;
+}
